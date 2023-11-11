@@ -73,7 +73,7 @@ const Sidebar = ({ open }) => {
   const theme = useTheme();
   
   return (
-    <Box sx={{ display: 'flex', }}>
+    <Box sx={{ display: 'flex',}}>
       <CssBaseline />
       <Drawer variant="permanent" open={open}>
         <DrawerHeader >

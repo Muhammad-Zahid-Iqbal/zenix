@@ -93,6 +93,10 @@ const Navbar = ({ setOpen, open }) => {
     setOpen(true);
     setShowMenuIcon(false);
   };
+  const handleDrawerClose = () => {
+    setOpen(false);
+    setShowMenuIcon(true);
+  };
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -193,10 +197,7 @@ const Navbar = ({ setOpen, open }) => {
       </MenuItem>
     </Menu>
   );
-  const handleDrawerClose = () => {
-    setOpen(false);
-    setShowMenuIcon(true);
-  };
+  
   const toggleIcon = () => {
     // Toggle the icon when the IconButton is clicked
     setShowMenuIcon(!showMenuIcon);
@@ -213,19 +214,19 @@ const Navbar = ({ setOpen, open }) => {
       <AppBarWithWhiteBackground sx={{ zIndex: "9999" }}>
         <Toolbar>
           <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              // mr: 2,
-              display: { md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
+            // variant="h6"
+            // noWrap
+            // component="a"
+            // href="#app-bar-with-responsive-menu"
+            // sx={{
+            //   // mr: 2,
+            //   display: { md: 'flex' },
+            //   fontFamily: 'monospace',
+            //   fontWeight: 700,
+            //   letterSpacing: '.3rem',
+            //   color: 'inherit',
+            //   textDecoration: 'none',
+            // }}
           >
             <Div sx={{  width: '50px', height: '50px', display: "flex", justifyContent: "center", alignItems: "center", background: "#eb8153" }}>
               <AccountBalanceOutlinedIcon />

@@ -5,7 +5,7 @@ import Filterperiod from '../dashboard/dashboard-filter/Filterperiod'
 import Weekboxes from '../dashboard/dashboard-content/week-boxes/Weekboxes';
 
 const Home = () => {
-  const isMobile = useMediaQuery('(max-width:600px)');
+  // const isMobile = useMediaQuery('(max-width:600px)');
   return (
     <>
       <Grid container>
