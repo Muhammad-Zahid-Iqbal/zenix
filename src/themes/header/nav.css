@@ -1,0 +1,40 @@
+.nav-header {
+    position: fixed;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.nav-header .brand-logo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.125rem;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-weight: 700;
+}
+.nav-control {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    font-size: 1.4rem;
+    padding: 2px 0.5rem 0;
+    border-radius: 2px;
+}
+.hamburger {
+    display: inline-block;
+    left: 0px;
+    position: relative;
+    top: 3px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 26px;
+    z-index: 999;
+}
