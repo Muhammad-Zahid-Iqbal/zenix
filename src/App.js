@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import Marketchart from './components/dashboard/market-overview/Marketchart';
 import SellBuyorder from './components/dashboard/sell-buy-orders/SellBuyorder';
 import Mainbalance from './components/dashboard/main-balance/Mainbalance';
+import Tradingactivities from './components/dashboard/recent-trading-activities/Tradingactivities';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Marketchart/>
         <SellBuyorder/>
         <Mainbalance/>
+        <Tradingactivities/>
       </Layout>
     </div>
   );
